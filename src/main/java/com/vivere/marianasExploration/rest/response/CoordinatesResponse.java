@@ -1,12 +1,6 @@
-package com.vivere.marianasExploration.entity;
+package com.vivere.marianasExploration.rest.response;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
-@Entity
-public class Coordinates {
-
-	@Id
+public class CoordinatesResponse {
 	private Integer submarine;
 	private Integer x;
 	private Integer y;
@@ -52,5 +46,4 @@ public class Coordinates {
 	public void setDirection(String direction) {
 		this.direction = direction;
 	}
-
 }

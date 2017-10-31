@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.vivere.marianasExploration.entity.Coordinates;
 
 public interface CoordinatesRepository extends JpaRepository<Coordinates, String>{
-	
+	Coordinates findBySubmarine(Integer submarine);
 }
